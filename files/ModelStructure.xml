@@ -1,0 +1,11 @@
+
+<ModelStructure MsgType="S_CLIENT" PortValue="IO_Type">
+  <NModel Name="test.xml">
+    <Component Name="a" Type="Atomic" Class="C_Buffer">
+      <Attribute Name="ID" Type="int" Value="0" />
+    </Component>
+    <Component Name="t" Type="Atomic" Class="C_Transducer">
+      <Attribute Name="MaxCustomers" Type="int" Value="100" />
+    </Component>
+  </NModel>
+</ModelStructure>
